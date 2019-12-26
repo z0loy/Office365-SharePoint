@@ -16,7 +16,7 @@ This example uses a CSS class (`sp-css-backgroundColor-XXXXX`) to the  `<div />`
 
 This pattern is useful when you want different values to map to different levels of severity, issue status, page status ...etc. 
 
-![screenshot of the sample](./screenshot.png)
+![screenshot of the sample](./screenshot.PNG)
 
 ## View requirements
 - This format can be applied to choice column and expects the following values Done, In progress, In review, Has Issues, or anything else
