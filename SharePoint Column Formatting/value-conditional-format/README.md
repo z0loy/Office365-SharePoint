@@ -1,4 +1,4 @@
-# Conditional formatting based on the value of a status column
+# Conditional formatting based on the value of an Issue status column
 
 ## Summary
 Here we applied conditional formatting to a choice fields that contain a fixed set of values. The following example applies different classes depending on whether the value of the field is:
