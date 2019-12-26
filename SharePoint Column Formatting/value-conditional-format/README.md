@@ -28,7 +28,6 @@ This pattern is useful when you want different values to map to different levels
   - Résolu (Resolved),
   - Traitement (In progress).
 
-## Sample
 
 Solution|Author(s)
 --------|---------
