@@ -1,14 +1,25 @@
-# Conditional formatting based on the value in a text or choice field
+# Conditional formatting based on the value of a status column
 
 ## Summary
-You can apply conditional formatting to text or choice fields that might contain a fixed set of values. The following example applies different classes depending on whether the value of the field is Done, In Review, Blocked, or another value. This example applies a CSS class (`sp-field-severity--low, sp-field-severity--good, sp-field-severity--warning, sp-field-severity--blocked`) to the  `<div />` based on the field's value. This is what determines the element's background color. A class of `ms-fontColor-neutralSecondary` is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a `<span />` element with an `iconName` attribute. This attribute applies another CSS class to that `<span />` that shows an [Office UI Fabric](https://dev.office.com/fabric#/) icon inside that element. Finally, another `<span />` element is outputted that contains the value inside the field.
+Here we applied conditional formatting to a choice fields that contain a fixed set of values. The following example applies different classes depending on whether the value of the field is:
+  - Actif (Active), 
+  - Annulé (Canceled),
+  - Basculé (Toggled or Swtiched),
+  - Clôturé (Closed),
+  - Gelé (Frozen),
+  - Résolu (Resolved),
+  - Traitement (In progress), 
 
-This pattern is useful when you want different values to map to different levels of urgency or severity. You can start from this example and edit it to specify your own field values and the styles and icons that should map to those values.
+### PS: in my case, I was working on a French version (the words between brackets are the equivalent words in english)
+
+This example uses a CSS class (`sp-css-backgroundColor-XXXXX`) to the  `<div />` based on the field's value. This is what determines the element's background color. Then, it outputs a `<span />` element with an `iconName` attribute. This attribute applies another CSS class to that `<span />` that shows an [Office UI Fabric](https://dev.office.com/fabric#/) icon inside that element.
+
+This pattern is useful when you want different values to map to different levels of severity, issue status, page status ...etc. 
 
 ![screenshot of the sample](./screenshot.png)
 
 ## View requirements
-- This format can be applied to a text/choice column and expects the following values Done, In progress, In review, Has Issues, or anything else
+- This format can be applied to choice column and expects the following values Done, In progress, In review, Has Issues, or anything else
 
 ## Sample
 
