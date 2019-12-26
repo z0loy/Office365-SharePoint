@@ -1,0 +1,23 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "div",
+    "attributes": {
+      "class": "= if(@currentField == '1.Actif', 'sp-css-backgroundColor-blueBackground37', if(@currentField == '2.Traitement', 'sp-css-backgroundColor-warningBackground50', if(@currentField == '3.Basculé', 'sp-css-backgroundColor-blockingBackground50', if(@currentField == '4.Résolu', 'sp-css-backgroundColor-successBackground50', if(@currentField == '5.Cloturé', 'sp-css-backgroundColor-errorBackground50', if(@currentField == '7.Gelé', 'sp-css-backgroundColor-neutralBackground30', 'sp-css-backgroundColor    -neutralBackground')))) + ' ms-fontColor-neutralSecondary'"
+    },
+    "children": [
+      {
+        "elmType": "span",
+        "style": {
+          "display": "inline-block",
+          "padding": "0 4px"
+        },
+        "attributes": {
+          "iconName": "=if(@currentField == '1.Actif', 'CommentActive', if(@currentField == '2.Traitement', 'Forward',  if(@currentField == '7.Gelé', 'HandsFree', if(@currentField == '3.Basculé', 'Switch', if(@currentField == '4.Résolu', 'CheckMark', if(@currentField == '5.Cloturé', 'DefenderTVM', 'Cancel'))))"
+        }
+      },
+      {
+        "elmType": "span",
+        "txtContent": "@currentField"
+      }
+    ]
+  }
