@@ -37,7 +37,8 @@ Statut.json | Aimen Boulahia
 
 
 ## Additional notes
-This sample is also covered in the main documentation around the Column Formatting
+This sample is also covered in the main documentation around the Column Formatting and the in the official repository of SharePoint:
 
 - [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- [Conditional formatting based on the value in a text or choice field](https://github.com/SharePoint/sp-dev-list-formatting/tree/master/column-samples/text-conditional-format)
 
