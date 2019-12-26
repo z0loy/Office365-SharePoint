@@ -10,7 +10,7 @@ Here we applied conditional formatting to a choice fields that contain a fixed s
   - Résolu (Resolved),
   - Traitement (In progress), 
 
-### PS: in my case, I was working on a French version (the words between brackets are the equivalent words in english)
+**PS: in my case, I was working on a French version (the words between brackets are the equivalent words in english)**
 
 This example uses a CSS class (`sp-css-backgroundColor-XXXXX`) to the  `<div />` based on the field's value. This is what determines the element's background color. Then, it outputs a `<span />` element with an `iconName` attribute. This attribute applies another CSS class to that `<span />` that shows an [Office UI Fabric](https://dev.office.com/fabric#/) icon inside that element.
 
