@@ -16,7 +16,6 @@ the following pane will appear to you:
 
 inside that box, enter your CF JSON, you can **Preview** the formatting or you can directly commit your changes by selecting **Save**. 
 
-## Sample
 
 |Author(s)
 |---------
