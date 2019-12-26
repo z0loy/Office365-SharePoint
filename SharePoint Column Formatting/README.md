@@ -9,7 +9,9 @@ To open the CF pane, please follow the next steps:
   - Open the dropdown menu under that column
   - Click on Column Settings
   - Select Formt this column
+  
 the following pane will appear to you: 
+
 ![screenshot of the sample](https://docs.microsoft.com/en-us/sharepoint/dev/images/sp-columnformatting-panel.png)
 
 inside that box, enter your CF JSON, you can **Preview** the formatting or you can directly commit your changes by selecting **Save**. 
