@@ -1,0 +1,730 @@
+{
+  "type": "Object",
+  "children": [
+    {
+      "type": "Property",
+      "key": {
+        "type": "Identifier",
+        "value": "$schema",
+        "raw": "\"$schema\"",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 5,
+            "offset": 6
+          },
+          "end": {
+            "line": 2,
+            "column": 14,
+            "offset": 15
+          },
+          "source": null
+        }
+      },
+      "value": {
+        "type": "Literal",
+        "value": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+        "raw": "\"https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json\"",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 16,
+            "offset": 17
+          },
+          "end": {
+            "line": 2,
+            "column": 95,
+            "offset": 96
+          },
+          "source": null
+        }
+      },
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 5,
+          "offset": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 95,
+          "offset": 96
+        },
+        "source": null
+      }
+    },
+    {
+      "type": "Property",
+      "key": {
+        "type": "Identifier",
+        "value": "elmType",
+        "raw": "\"elmType\"",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 5,
+            "offset": 102
+          },
+          "end": {
+            "line": 3,
+            "column": 14,
+            "offset": 111
+          },
+          "source": null
+        }
+      },
+      "value": {
+        "type": "Literal",
+        "value": "div",
+        "raw": "\"div\"",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 16,
+            "offset": 113
+          },
+          "end": {
+            "line": 3,
+            "column": 21,
+            "offset": 118
+          },
+          "source": null
+        }
+      },
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 5,
+          "offset": 102
+        },
+        "end": {
+          "line": 3,
+          "column": 21,
+          "offset": 118
+        },
+        "source": null
+      }
+    },
+    {
+      "type": "Property",
+      "key": {
+        "type": "Identifier",
+        "value": "attributes",
+        "raw": "\"attributes\"",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 5,
+            "offset": 124
+          },
+          "end": {
+            "line": 4,
+            "column": 17,
+            "offset": 136
+          },
+          "source": null
+        }
+      },
+      "value": {
+        "type": "Object",
+        "children": [
+          {
+            "type": "Property",
+            "key": {
+              "type": "Identifier",
+              "value": "class",
+              "raw": "\"class\"",
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 7,
+                  "offset": 146
+                },
+                "end": {
+                  "line": 5,
+                  "column": 14,
+                  "offset": 153
+                },
+                "source": null
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "= if(@currentField == '1.Actif', 'sp-css-backgroundColor-blueBackground37', if(@currentField == '2.Traitement', 'sp-css-backgroundColor-warningBackground50', if(@currentField == '3.Basculé', 'sp-css-backgroundColor-blockingBackground50', if(@currentField == '4.Résolu', 'sp-css-backgroundColor-successBackground50', if(@currentField == '5.Cloturé', 'sp-css-backgroundColor-errorBackground50', if(@currentField == '7.Gelé', 'sp-css-backgroundColor-neutralBackground30', 'sp-css-backgroundColor    -neutralBackground')))) + ' ms-fontColor-neutralSecondary'",
+              "raw": "\"= if(@currentField == '1.Actif', 'sp-css-backgroundColor-blueBackground37', if(@currentField == '2.Traitement', 'sp-css-backgroundColor-warningBackground50', if(@currentField == '3.Basculé', 'sp-css-backgroundColor-blockingBackground50', if(@currentField == '4.Résolu', 'sp-css-backgroundColor-successBackground50', if(@currentField == '5.Cloturé', 'sp-css-backgroundColor-errorBackground50', if(@currentField == '7.Gelé', 'sp-css-backgroundColor-neutralBackground30', 'sp-css-backgroundColor    -neutralBackground')))) + ' ms-fontColor-neutralSecondary'\"",
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 16,
+                  "offset": 155
+                },
+                "end": {
+                  "line": 5,
+                  "column": 572,
+                  "offset": 711
+                },
+                "source": null
+              }
+            },
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 7,
+                "offset": 146
+              },
+              "end": {
+                "line": 5,
+                "column": 572,
+                "offset": 711
+              },
+              "source": null
+            }
+          }
+        ],
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 19,
+            "offset": 138
+          },
+          "end": {
+            "line": 6,
+            "column": 6,
+            "offset": 717
+          },
+          "source": null
+        }
+      },
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 5,
+          "offset": 124
+        },
+        "end": {
+          "line": 6,
+          "column": 6,
+          "offset": 717
+        },
+        "source": null
+      }
+    },
+    {
+      "type": "Property",
+      "key": {
+        "type": "Identifier",
+        "value": "children",
+        "raw": "\"children\"",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 5,
+            "offset": 723
+          },
+          "end": {
+            "line": 7,
+            "column": 15,
+            "offset": 733
+          },
+          "source": null
+        }
+      },
+      "value": {
+        "type": "Array",
+        "children": [
+          {
+            "type": "Object",
+            "children": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "value": "elmType",
+                  "raw": "\"elmType\"",
+                  "loc": {
+                    "start": {
+                      "line": 9,
+                      "column": 9,
+                      "offset": 753
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 18,
+                      "offset": 762
+                    },
+                    "source": null
+                  }
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "span",
+                  "raw": "\"span\"",
+                  "loc": {
+                    "start": {
+                      "line": 9,
+                      "column": 20,
+                      "offset": 764
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 26,
+                      "offset": 770
+                    },
+                    "source": null
+                  }
+                },
+                "loc": {
+                  "start": {
+                    "line": 9,
+                    "column": 9,
+                    "offset": 753
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 26,
+                    "offset": 770
+                  },
+                  "source": null
+                }
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "value": "style",
+                  "raw": "\"style\"",
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 9,
+                      "offset": 780
+                    },
+                    "end": {
+                      "line": 10,
+                      "column": 16,
+                      "offset": 787
+                    },
+                    "source": null
+                  }
+                },
+                "value": {
+                  "type": "Object",
+                  "children": [
+                    {
+                      "type": "Property",
+                      "key": {
+                        "type": "Identifier",
+                        "value": "display",
+                        "raw": "\"display\"",
+                        "loc": {
+                          "start": {
+                            "line": 11,
+                            "column": 11,
+                            "offset": 801
+                          },
+                          "end": {
+                            "line": 11,
+                            "column": 20,
+                            "offset": 810
+                          },
+                          "source": null
+                        }
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "inline-block",
+                        "raw": "\"inline-block\"",
+                        "loc": {
+                          "start": {
+                            "line": 11,
+                            "column": 22,
+                            "offset": 812
+                          },
+                          "end": {
+                            "line": 11,
+                            "column": 36,
+                            "offset": 826
+                          },
+                          "source": null
+                        }
+                      },
+                      "loc": {
+                        "start": {
+                          "line": 11,
+                          "column": 11,
+                          "offset": 801
+                        },
+                        "end": {
+                          "line": 11,
+                          "column": 36,
+                          "offset": 826
+                        },
+                        "source": null
+                      }
+                    },
+                    {
+                      "type": "Property",
+                      "key": {
+                        "type": "Identifier",
+                        "value": "padding",
+                        "raw": "\"padding\"",
+                        "loc": {
+                          "start": {
+                            "line": 12,
+                            "column": 11,
+                            "offset": 838
+                          },
+                          "end": {
+                            "line": 12,
+                            "column": 20,
+                            "offset": 847
+                          },
+                          "source": null
+                        }
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "0 4px",
+                        "raw": "\"0 4px\"",
+                        "loc": {
+                          "start": {
+                            "line": 12,
+                            "column": 22,
+                            "offset": 849
+                          },
+                          "end": {
+                            "line": 12,
+                            "column": 29,
+                            "offset": 856
+                          },
+                          "source": null
+                        }
+                      },
+                      "loc": {
+                        "start": {
+                          "line": 12,
+                          "column": 11,
+                          "offset": 838
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 29,
+                          "offset": 856
+                        },
+                        "source": null
+                      }
+                    }
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 18,
+                      "offset": 789
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 10,
+                      "offset": 866
+                    },
+                    "source": null
+                  }
+                },
+                "loc": {
+                  "start": {
+                    "line": 10,
+                    "column": 9,
+                    "offset": 780
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 10,
+                    "offset": 866
+                  },
+                  "source": null
+                }
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "value": "attributes",
+                  "raw": "\"attributes\"",
+                  "loc": {
+                    "start": {
+                      "line": 14,
+                      "column": 9,
+                      "offset": 876
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 21,
+                      "offset": 888
+                    },
+                    "source": null
+                  }
+                },
+                "value": {
+                  "type": "Object",
+                  "children": [
+                    {
+                      "type": "Property",
+                      "key": {
+                        "type": "Identifier",
+                        "value": "iconName",
+                        "raw": "\"iconName\"",
+                        "loc": {
+                          "start": {
+                            "line": 15,
+                            "column": 11,
+                            "offset": 902
+                          },
+                          "end": {
+                            "line": 15,
+                            "column": 21,
+                            "offset": 912
+                          },
+                          "source": null
+                        }
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "=if(@currentField == '1.Actif', 'CommentActive', if(@currentField == '2.Traitement', 'Forward',  if(@currentField == '7.Gelé', 'HandsFree', if(@currentField == '3.Basculé', 'Switch', if(@currentField == '4.Résolu', 'CheckMark', if(@currentField == '5.Cloturé', 'DefenderTVM', 'Cancel'))))",
+                        "raw": "\"=if(@currentField == '1.Actif', 'CommentActive', if(@currentField == '2.Traitement', 'Forward',  if(@currentField == '7.Gelé', 'HandsFree', if(@currentField == '3.Basculé', 'Switch', if(@currentField == '4.Résolu', 'CheckMark', if(@currentField == '5.Cloturé', 'DefenderTVM', 'Cancel'))))\"",
+                        "loc": {
+                          "start": {
+                            "line": 15,
+                            "column": 23,
+                            "offset": 914
+                          },
+                          "end": {
+                            "line": 15,
+                            "column": 313,
+                            "offset": 1204
+                          },
+                          "source": null
+                        }
+                      },
+                      "loc": {
+                        "start": {
+                          "line": 15,
+                          "column": 11,
+                          "offset": 902
+                        },
+                        "end": {
+                          "line": 15,
+                          "column": 313,
+                          "offset": 1204
+                        },
+                        "source": null
+                      }
+                    }
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 14,
+                      "column": 23,
+                      "offset": 890
+                    },
+                    "end": {
+                      "line": 16,
+                      "column": 10,
+                      "offset": 1214
+                    },
+                    "source": null
+                  }
+                },
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 9,
+                    "offset": 876
+                  },
+                  "end": {
+                    "line": 16,
+                    "column": 10,
+                    "offset": 1214
+                  },
+                  "source": null
+                }
+              }
+            ],
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 7,
+                "offset": 743
+              },
+              "end": {
+                "line": 17,
+                "column": 8,
+                "offset": 1222
+              },
+              "source": null
+            }
+          },
+          {
+            "type": "Object",
+            "children": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "value": "elmType",
+                  "raw": "\"elmType\"",
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 9,
+                      "offset": 1240
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 18,
+                      "offset": 1249
+                    },
+                    "source": null
+                  }
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "span",
+                  "raw": "\"span\"",
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 20,
+                      "offset": 1251
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 26,
+                      "offset": 1257
+                    },
+                    "source": null
+                  }
+                },
+                "loc": {
+                  "start": {
+                    "line": 19,
+                    "column": 9,
+                    "offset": 1240
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 26,
+                    "offset": 1257
+                  },
+                  "source": null
+                }
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "value": "txtContent",
+                  "raw": "\"txtContent\"",
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 9,
+                      "offset": 1267
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 21,
+                      "offset": 1279
+                    },
+                    "source": null
+                  }
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "@currentField",
+                  "raw": "\"@currentField\"",
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 23,
+                      "offset": 1281
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 38,
+                      "offset": 1296
+                    },
+                    "source": null
+                  }
+                },
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 9,
+                    "offset": 1267
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 38,
+                    "offset": 1296
+                  },
+                  "source": null
+                }
+              }
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 7,
+                "offset": 1230
+              },
+              "end": {
+                "line": 21,
+                "column": 8,
+                "offset": 1304
+              },
+              "source": null
+            }
+          }
+        ],
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 17,
+            "offset": 735
+          },
+          "end": {
+            "line": 22,
+            "column": 6,
+            "offset": 1310
+          },
+          "source": null
+        }
+      },
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 5,
+          "offset": 723
+        },
+        "end": {
+          "line": 22,
+          "column": 6,
+          "offset": 1310
+        },
+        "source": null
+      }
+    }
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 1,
+      "offset": 0
+    },
+    "end": {
+      "line": 23,
+      "column": 4,
+      "offset": 1314
+    },
+    "source": null
+  }
+}
